@@ -26,10 +26,14 @@ function verificarChute() {
         exibirTextoNaTela('p', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
-        if (chute > numeroSecreto) {
-            exibirTextoNaTela('p', 'O número secreto é menor');
+       if (chute > 100 || chute < 1 ) {
+            exibirTextoNaTela('p', 'Escolha um número válido, entre 1 e 100');
         } else {
-            exibirTextoNaTela('p', 'O número secreto é maior');
+            if (chute > numeroSecreto) {
+                exibirTextoNaTela('p', 'O número secreto é menor');
+            } else {
+                exibirTextoNaTela('p', 'O número secreto é maior');
+            }
         }
         tentativas++;
         limparCampo();
