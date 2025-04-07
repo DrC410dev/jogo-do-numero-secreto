@@ -26,8 +26,8 @@ function verificarChute() {
         exibirTextoNaTela('p', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
-       if (chute > 100 || chute < 1 ) {
-            exibirTextoNaTela('p', 'Escolha um número válido, entre 1 e 100');
+       if (chute > 1000 || chute < 1 ) {
+            exibirTextoNaTela('p', 'Escolha um número válido, entre 1 e 1000');
         } else {
             if (chute > numeroSecreto) {
                 exibirTextoNaTela('p', 'O número secreto é menor');
