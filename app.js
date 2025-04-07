@@ -10,8 +10,8 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 1000');
+    exibirTextoNaTela('h1', 'Jogo do número secreto do Caio Moura');
+    exibirTextoNaTela('p', 'Insira abaixo um número entre 1 e 1000. Tente descobrir em um menor número de tentativas');
 }
 
 exibirMensagemInicial();
