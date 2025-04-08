@@ -114,19 +114,23 @@ button:disabled {
 
     .container {
         flex-direction: column;
+        display: block;
     }
 
     h1 {
         font-size: 35px;
+        text-align: center;
     }
 
     .container__botao {
         font-size: 16px;
+        padding: 2rex;
     }
 
 
     .texto__paragrafo {
         font-size: 16px;
+        text-align: justify;
     }
 
     .container__imagem-pessoa {
@@ -134,12 +138,12 @@ button:disabled {
     }
 
     .container__conteudo {
-        display: block;
+        display: inline-block;
         position: inherit;
     }
 
     .container__informacoes {
-        padding: 1rem
+        padding: 4rex
     }
 
     .img {
