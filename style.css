@@ -110,7 +110,7 @@ button:disabled {
     background-color: gray;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1020px) {
 
     .container {
         flex-direction: column;
@@ -145,7 +145,7 @@ button:disabled {
     .img {
         display: inline;
         position: absolute;
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
 }
