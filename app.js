@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 1000
+let numeroLimite = 100
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto do Caio Moura');
-    exibirTextoNaTela('p', 'Insira abaixo um número entre 1 e 1000. Tente descobrir com menos tentativas!');
+    exibirTextoNaTela('p', 'Insira abaixo um número entre 1 e 100. Tente descobrir com menos tentativas!');
 }
 
 exibirMensagemInicial();
@@ -26,8 +26,8 @@ function verificarChute() {
         exibirTextoNaTela('p', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
-       if (chute > 1000 || chute < 1 ) {
-            exibirTextoNaTela('p', 'Escolha um número válido, entre 1 e 1000');
+       if (chute > 100 || chute < 1 ) {
+            exibirTextoNaTela('p', 'Escolha um número válido, entre 1 e 100');
         } else {
             if (chute > numeroSecreto) {
                 exibirTextoNaTela('p', 'O número secreto é menor');
