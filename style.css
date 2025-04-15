@@ -147,7 +147,7 @@ button:disabled {
     }
 
     .img {
-        display: inline;
+        display: none;
         position: absolute;
         height: 250px;
         width: 150px;
