@@ -149,7 +149,7 @@ button:disabled {
     .img {
         display: inline;
         position: absolute;
-        height: 300px;
-        width: 200px;
+        height: 250px;
+        width: 150px;
     }
 }
