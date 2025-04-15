@@ -147,9 +147,9 @@ button:disabled {
     }
 
     .img {
-        display: none;
+        display: inline;
         position: absolute;
-        height: 250px;
-        width: 150px;
+        height: 300px;
+        width: 300px;
     }
 }
