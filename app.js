@@ -6,11 +6,11 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
+    // responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Jogo do número secreto do Caio Moura');
+    exibirTextoNaTela('h1', 'Jogo do número secreto <span class="container__texto-azul"> <br> *DrC410*');
     exibirTextoNaTela('p', 'Insira abaixo um número entre 1 e 100. Tente descobrir com menos tentativas!');
 }
 
